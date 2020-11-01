@@ -87,4 +87,4 @@ do{
   myfile.close();
   return 0;
 }
-// the correct answers display in the text files
+// the correct answers will be display in the text files

@@ -35,7 +35,7 @@ We used the outputs to ask the question and give the points to the user and inpu
 
 ### Decisions
 
-!!!Replace with a summary and examples of how multiple decision constructs have been used effectively and appropriately!!! We used if, else, and else if to say if you get the question right you get a point and if you get it wrong then you miss a point and you after the point system you go to the next question.
+ We used if, else, and else if to say if you get the question right you get a point and if you get it wrong then you miss a point and you after the point system you go to the next question.
 
 ### Iteration
 
