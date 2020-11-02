@@ -2,6 +2,7 @@
 #include <fstream>
 using namespace std;
 // when typing your input it should be one character and enter.
+//Vernon 
 int main()
 {
  string color1;
