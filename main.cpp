@@ -17,7 +17,7 @@ myfile.open("file.txt");
 if(myfile.is_open()){
 do{
 // MAKE SURE YOU USE LOWER CASE CHARACTERS!!!!!
-
+// The code that ask you what color you see and ask for a y or a n
   int point = 0;
   cout << "You will 1 point for each color correct" << endl;
   cout << "Picture 1: Please look at Picture 1" << endl;
@@ -71,6 +71,8 @@ do{
   myfile.close();
   return 0;
 }
+// the correct answers will be display in the text files
+// adds points to each picture and holds the Not invalid message
 void pickColor(string color, int& point, ofstream& myfile)
 {
   while(inputs(color)){
@@ -82,7 +84,7 @@ void pickColor(string color, int& point, ofstream& myfile)
      myfile << "you got a point for a part of the picture.\n";
   }
 }
-// the correct answers will be display in the text files
+// if you put anything other the y or n the code would output not valid
 bool inputs(string input)
 {
  if(input != "y" && input !=  "n")
