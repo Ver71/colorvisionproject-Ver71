@@ -1,9 +1,9 @@
 Red Groups Color Vision Program 
 
 ## Description
-# v0.2
+# v1.0
 
-The test will have you enter y or n any other input is now invaild and now it shows how many points you have at the end of each test and they add up lik if you got 2 points for test one and get 2 more for test 2 it will say 4 points in total after test 2 making it easier to understand what you got wrong.
+The code is now neater and easier for the user to read and now with the clase the user can easily input a new color and question just by adding a new c1 and c2 and a new color into the array.
 
 ## Developer
 
@@ -50,4 +50,5 @@ The Array I added into the code is for storing the colors in the code to make th
 
  ### Functions
 The two functions I added to the code was a void and a bool function the void function is used to show what point you got for that picture though the points add up over time and the bool functions makes it so you can only input y or n or else you will get a message saying incorrect input.
-
+### class
+The class that I added to the program allowed for the crewator to modify the colors in the code and the class function now holds the questions user will answer. How the class works in you want to put in another color all you have to do is put in another case and a new array.
